@@ -33,7 +33,7 @@ Bandingkan Hasil poin a dan b , apa kesimpulan yang bisa didapatkan? <br>
 a menggunakan nilai tetap sehingga peluang distribusi geometriknya selalu sama, sedangkan b menggunakan nilai acak sehingga peluang distribusi geometriknya berubah ubah. untuk nilai peluang distribusi geometriknya cenderung mirip antara a dan b
 
 ### D
-Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama
+Histogram Distribusi Geometrik , Peluang X = 3 gagal Sebelum Sukses Pertama <br>
 ![plot](https://user-images.githubusercontent.com/80032250/162624485-9dd86fd3-932b-4bf0-b574-081775eaf7cc.png)<br>
 
 
@@ -63,7 +63,7 @@ dbinom(x, n, p)
 fungsi `dbinom` digunakan untuk menghitung peluang distribusi binomial 
 
 ### B
-Gambarkan grafik histogram berdasarkan kasus tersebut.
+Gambarkan grafik histogram berdasarkan kasus tersebut. <br>
 ![plot](https://user-images.githubusercontent.com/80032250/162624525-4b5ae149-23b0-439f-bb82-0cae0d794fa2.png)<br>
 
 ### C
@@ -92,7 +92,7 @@ dpois(x, lambda)
 Menggunakan fungsi `dpois` untuk menghitung peluang distribusi poisson
 
 ### B
-simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365)
+simulasikan dan buatlah histogram kelahiran 6 bayi akan lahir di rumah sakit ini selama setahun (n = 365) <br>
 ![plot](https://user-images.githubusercontent.com/80032250/162624560-685dcf44-7695-4ba0-a6cd-6958e3392f2b.png)<br>
 
 
@@ -126,7 +126,7 @@ dchisq(x, v)
 fungsi `dchisq ` untuk menghitung peluang distribusi chi-square
 
 ### B
-Histogram dari Distribusi Chi-Square dengan 100 data random.
+Histogram dari Distribusi Chi-Square dengan 100 data random. <br>
 ![plot](https://user-images.githubusercontent.com/80032250/162624579-332992a0-474a-4551-8860-10b1135760f3.png)<br>
 
 
@@ -200,7 +200,7 @@ z_score_x2 <- (x2 - mean) / sd
 cat("Z-Score X1 = ", z_score_x1, "\nZ-Score X2 = ", z_score_x2)
 
 ```
-Nilai z-score didapat dari x-mean/sd
+Nilai z-score didapat dari x-mean/sd <br>
 ![plot](https://user-images.githubusercontent.com/80032250/162624736-e9bd7072-ea14-4f47-8d5f-4ff3b4805eb8.png)<br>
 
 
