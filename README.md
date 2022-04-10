@@ -14,6 +14,7 @@ n <- 10000
 Berapa peluang penyurvei bertemu x = 3 orang yang tidak menghadiri acara vaksinasi sebelum keberhasilan pertama ketika p = 0,20 dari populasi menghadiri acara vaksinasi ? (distribusi Geometrik)
 ```r
 dgeom(x, p)
+#0.1024
 ```
 `dgeom` digunakan untuk mencari peluang distribusi geometrik
 
@@ -22,6 +23,7 @@ mean Distribusi Geometrik dengan 10000 data random , prob = 0,20 dimana distribu
 ```r
 mdisgeo <- mean(rgeom(n, p) == x)
 mdisgeo
+#0.1033
 ```
 `rgeom` digunakan untuk menghitung distribusi geometrik dengan data random kemudian kita cari meannya menggunakan mean()
 
@@ -56,6 +58,7 @@ x <- 4
 Peluang terdapat 4 pasien yang sembuh.
 ```r
 dbinom(x, n, p)
+#0.2181994
 ```
 fungsi `dbinom` digunakan untuk menghitung peluang distribusi binomial 
 
@@ -84,6 +87,7 @@ lambda <- 4.5
 Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok?
 ```r
 dpois(x, lambda)
+#0.1281201
 ```
 Menggunakan fungsi `dpois` untuk menghitung peluang distribusi poisson
 
@@ -117,6 +121,7 @@ v <- 10
 Fungsi Probabilitas dari Distribusi Chi-Square
 ```r
 dchisq(x, v)
+#0.007664155
 ```
 fungsi `dchisq ` untuk menghitung peluang distribusi chi-square
 
@@ -150,13 +155,9 @@ Menggunakan fungsi `dexp` untuk menghitung peluang distribusi exponensial.
 
 ### B
 Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
-10
 ![plot](https://user-images.githubusercontent.com/80032250/162624645-11fd9907-2c01-431d-9548-108cdc6608a9.png)
-100
 ![plot](https://user-images.githubusercontent.com/80032250/162624651-172b352c-d4ba-4261-8e92-6ec9c088d884.png)
-1000
 ![plot](https://user-images.githubusercontent.com/80032250/162624661-8e62b5b6-3106-4810-b03b-04b0866582fb.png)
-10000
 ![plot](https://user-images.githubusercontent.com/80032250/162624667-43475da4-54c1-479d-8cb9-155a0cf36eb7.png)
 
 
@@ -214,5 +215,6 @@ NRP_Nama_Probstat_{Nama Kelas}_DNhistogram  <br>
 Nilai Varian (σ²) dari hasil generate random nilai Distribusi Normal.
 ```r
 var(rnorm(n, mean, sd))
+#69.12706
 ```
 Menggunakan fungsi var untuk mencari varian 
